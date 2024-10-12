@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # NgxTranslateTest
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.7.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+=======
+# ngx-translate
+Demostration project to display how the language of website can be changed using angular ngx-translate
+>>>>>>> d00f34fdabe3f641e45873b132f0207dbb948660
