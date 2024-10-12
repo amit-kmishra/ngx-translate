@@ -1,0 +1,16 @@
+<nav class="navbar">
+    <div class="nav-links">
+      <a routerLink="/">{{ 'HOME' | translate }}</a>
+      <a routerLink="/about-us">{{ 'ABOUT_US' | translate }}</a>
+      <a routerLink="/contact-us">{{ 'CONTACT_US' | translate }}</a>
+    </div>
+    <div class="language-select">
+      <select (change)="onLanguageChange($event)" id="language-selector">
+        <option [selected]="lang==='en'" value="en">English</option>
+        <option [selected]="lang==='fr'" value="fr">Français</option>
+        <option [selected]="lang==='es'" value="es">Español</option>
+        <!-- Add more languages as needed -->
+      </select>
+    </div> 
+  </nav>
+  

@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: gray;
+    background-size: cover;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    backdrop-filter: blur(10px) saturate(200%);
+    background-color: #607D8B;
+    border-radius: 12px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-links a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #00aaff;
+  }
+  
+  .language-select select {
+    padding: 8px 12px;
+    background: #607D8B;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+    backdrop-filter: blur(5px);
+    appearance: none;
+    cursor: pointer;
+  }
+  
+  .language-select select:hover {
+    background-color: #607D8B;
+  }
+  
